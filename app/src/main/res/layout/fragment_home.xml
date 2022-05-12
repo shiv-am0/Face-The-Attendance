@@ -16,7 +16,8 @@
         android:layout_marginTop="16dp"
         android:src="@drawable/icons_welcome"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/welcome_to" />
 
     <TextView
         android:id="@+id/textView"
@@ -25,7 +26,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/comfortaa"
-        android:text="Welcome to"
+        android:text="@string/welcome_to"
         android:textColor="@color/text_color"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,7 +48,7 @@
         android:id="@+id/materialCardView2"
         android:layout_width="0dp"
         android:layout_height="140dp"
-        android:background="@color/white"
+        app:cardBackgroundColor="@color/white"
         android:padding="16dp"
         app:cardCornerRadius="15dp"
         app:cardElevation="16dp"
@@ -58,7 +59,7 @@
 
         <ImageView
             android:layout_width="100dp"
-            android:layout_height="match_parent"
+            android:layout_height="100dp"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="24dp"
             android:src="@drawable/take_attendance" />
@@ -70,9 +71,9 @@
             android:layout_marginEnd="36dp"
             android:elevation="12dp"
             android:fontFamily="@font/comfortaabold"
-            android:text="Take Attendance"
+            android:text="@string/take_attendance"
             android:textColor="@color/text_color"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
     </com.google.android.material.card.MaterialCardView>
 
@@ -80,7 +81,7 @@
         android:id="@+id/materialCardView"
         android:layout_width="0dp"
         android:layout_height="140dp"
-        android:background="@color/white"
+        app:cardBackgroundColor="@color/white"
         android:padding="16dp"
         app:cardCornerRadius="15dp"
         app:cardElevation="16dp"
@@ -91,7 +92,7 @@
 
         <ImageView
             android:layout_width="100dp"
-            android:layout_height="match_parent"
+            android:layout_height="100dp"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="24dp"
             android:src="@drawable/view_attendance" />
@@ -103,9 +104,9 @@
             android:layout_marginEnd="36dp"
             android:elevation="12dp"
             android:fontFamily="@font/comfortaabold"
-            android:text="View Attendance"
+            android:text="@string/view_attendance"
             android:textColor="@color/text_color"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
     </com.google.android.material.card.MaterialCardView>
 
