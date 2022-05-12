@@ -15,6 +15,7 @@ class Splash : AppCompatActivity() {
 
         binding.splashText.animate().setDuration(2000).alpha(1f).withEndAction {
             startActivity(Intent(this, MainActivity::class.java))
+            finish()
         }
     }
 }
