@@ -21,6 +21,7 @@ class SplashFragment : Fragment() {
 
         binding.splashText.animate().setDuration(2000).alpha(1f).withEndAction {
             findNavController(this).navigate(R.id.action_splashFragment_to_homeFragment)
+            activity?.finish()
         }
 
         return binding.root

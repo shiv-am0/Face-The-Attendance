@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView2"
+        android:id="@+id/takeAttendanceCard"
         android:layout_width="0dp"
         android:layout_height="140dp"
         app:cardBackgroundColor="@color/white"
@@ -78,7 +78,7 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView"
+        android:id="@+id/viewAttendanceCard"
         android:layout_width="0dp"
         android:layout_height="140dp"
         app:cardBackgroundColor="@color/white"
@@ -88,7 +88,7 @@
         android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialCardView2">
+        app:layout_constraintTop_toBottomOf="@+id/takeAttendanceCard">
 
         <ImageView
             android:layout_width="100dp"
