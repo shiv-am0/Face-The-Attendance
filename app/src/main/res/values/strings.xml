@@ -5,4 +5,7 @@
     <string name="welcome_to">Welcome to</string>
     <string name="take_attendance">Take Attendance</string>
     <string name="view_attendance">View Attendance</string>
+    <string name="choose_a_date_to_start_attendance">Choose a date to start attendance</string>
+    <string name="start_attendance">Start Attendance</string>
+    <string name="choose_a_date_to_view_attendance">Choose a date to view attendance</string>
 </resources>
