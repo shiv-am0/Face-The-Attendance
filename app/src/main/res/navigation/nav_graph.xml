@@ -26,7 +26,11 @@
         android:id="@+id/takeAttendanceFragment"
         android:name="com.sriv.shivam.facetheattendance.fragments.TakeAttendanceFragment"
         android:label="fragment_take_attendance"
-        tools:layout="@layout/fragment_take_attendance" />
+        tools:layout="@layout/fragment_take_attendance" >
+        <action
+            android:id="@+id/action_takeAttendanceFragment_to_attendanceCameraFragment"
+            app:destination="@id/attendanceCameraFragment" />
+    </fragment>
     <fragment
         android:id="@+id/splashFragment"
         android:name="com.sriv.shivam.facetheattendance.fragments.SplashFragment"
@@ -36,4 +40,9 @@
             android:id="@+id/action_splashFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/attendanceCameraFragment"
+        android:name="com.sriv.shivam.facetheattendance.fragments.AttendanceCameraFragment"
+        android:label="fragment_attendance_camera"
+        tools:layout="@layout/fragment_attendance_camera" />
 </navigation>
